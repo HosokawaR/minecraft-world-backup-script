@@ -18,5 +18,5 @@ SOURCE_DIR=world
 ## Usage
 
 ```console
-deno run --allow-net --allow-env --allow-read --allow-write --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-backup-script/main/main.ts
+deno run --allow-net --allow-env --allow-read --allow-write --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-world-backup-script/main/main.ts
 ```
