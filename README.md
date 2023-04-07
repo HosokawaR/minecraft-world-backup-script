@@ -8,15 +8,15 @@ Set the following environment variables:
 
 ```
 AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_REGION=ap-northeast-1
-TIME_ZONE=Asia/Tokyo
 AWS_BUCKET_NAME=your-minecraft-backup
+AWS_REGION=ap-northeast-1
+AWS_SECRET_ACCESS_KEY=
 SOURCE_DIR=world
+TIME_ZONE=Asia/Tokyo
 ```
 
 ## Usage
 
 ```console
-deno run --allow-net --allow-env --allow-read --allow-write --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-world-backup-script/main/main.ts
+deno run --allow-net --allow-env --allow-read --allow-write --allow-run --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-world-backup-script/main/main.ts
 ```
