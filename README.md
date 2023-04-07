@@ -42,5 +42,5 @@ TIME_ZONE=Asia/Tokyo
 AWS_BUCKET_NAME=
 SOURCE_DIR=<FULL PATH TO SOURCE>
 
-* 6 * * * <FULL PATH TO deno> run --allow-net --allow-env --allow-read --allow-write --allow-run --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-world-backup-script/main/main.ts >> /var/log/<YOUR LOG FILE>.log 2>&1
+0 6 * * * <FULL PATH TO deno> run --allow-net --allow-env --allow-read --allow-write --allow-run --unstable https://raw.githubusercontent.com/HosokawaR/minecraft-world-backup-script/main/main.ts >> /var/log/<YOUR LOG FILE>.log 2>&1
 ```
